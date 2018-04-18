@@ -1,0 +1,29 @@
+.wj-content {
+    border-radius: 4px;
+    background-color: #32383e;
+    color: #ffffff;
+}
+.wj-header {
+    background-color: #32383e;
+    color: #ffffff;
+}
+.wj-state-selected {
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+.wj-state-multi-selected {
+    background-color: #78a4ab;
+    color: #ffffff;
+}                    
+.wj-tooltip {
+    background-color: #ffffe5;
+    color: #333333;
+}
+.wj-cell:not(.wj-header):not(.wj-group):not(.wj-alt):not(.wj-state-selected):not(.wj-state-multi-selected) {
+    background-color: #32383e;
+    color: #ffffff;
+}
+.wj-alt:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected) {
+    background-color: #2d3238;
+    color: #ffffff;
+}

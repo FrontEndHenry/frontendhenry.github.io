@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+// @import 'color-variables'
+@import 'color-variables';
+
+.sidemodal {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 3.5rem;
+    right: 0;
+    background-color: #32383e;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+ .sidemodal-header {
+    padding: 0.2rem;    
+    color: white;
+}
+
+.sidemodal-foot {
+    position: absolute;
+    bottom: 100px;    
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.sidemodel-content {
+    padding: 1rem;
+}
+
+ /* The Close Button */
+.close {
+    color: white;
+    top: 0;
+    float: right;
+}
+
+.portal-alter {
+    margin: 1.5rem 2rem 1.5rem 2rem;   
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}

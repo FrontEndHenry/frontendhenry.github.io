@@ -1,0 +1,19 @@
+html {
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+      text-rendering: optimizeLegibility;
+      background: $body-bg;
+      &.ie {
+      }
+      @import 'ui.default';
+      &.theme-dark {
+        background-color: $dt_gray_2;
+        color: $white;
+        @import 'ui.dark';
+      }
+    }
+  }
+  
